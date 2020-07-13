@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>post on always building!</title>
+    <link>narup.github.io/tags/post/</link>
+    <description>Recent content in post on always building!</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jul 2020 01:18:07 -0700</lastBuildDate>
+    
+	<atom:link href="narup.github.io/tags/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>the first one</title>
+      <link>narup.github.io/post/my_first_post/</link>
+      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
+      
+      <guid>narup.github.io/post/my_first_post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

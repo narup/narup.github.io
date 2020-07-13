@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>narup.github.io/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/tags/first/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/tags/post/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/post/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/tags/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/post/my_first_post/</loc>
+    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>narup.github.io/categories/</loc>
+  </url>
+  
+</urlset>
