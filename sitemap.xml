@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://32skills.com/about/</loc>
+    <lastmod>2020-07-14T19:31:04-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://32skills.com/categories/</loc>
     <lastmod>2020-07-14T18:46:19-07:00</lastmod>
   </url>
@@ -68,15 +73,7 @@
   </url>
   
   <url>
-    <loc>https://32skills.com/about/about/</loc>
-  </url>
-  
-  <url>
     <loc>https://32skills.com/book/books/</loc>
-  </url>
-  
-  <url>
-    <loc>https://32skills.com/about/</loc>
   </url>
   
   <url>

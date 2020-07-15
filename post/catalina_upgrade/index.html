@@ -127,7 +127,7 @@
 </code></pre></div><p>After some head scratching, it turns out Catalina now removes all access to the root folder /.
 MongoDB by default uses /data/db to store all its data. Now with Catalina, since / is no longer
 accessible MongoDB failed to start. It did trigger a bit of a panic to not see my data in /data directory.
-But, while doing some more digging I found MacOS actually moved the data from the root folder to the shared users folder-</p>
+But, after doing some more digging I found MacOS actually moved the data from the root folder to the shared users folder-</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems
 </code></pre></div><p>So, I had to move the db/data from the shared relocated folder to my home folder-</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mv /Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems/Security/data/db /Users/&lt;username&gt;

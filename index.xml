@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://32skills.com/about/</link>
+      <pubDate>Tue, 14 Jul 2020 19:31:04 -0700</pubDate>
+      
+      <guid>https://32skills.com/about/</guid>
+      <description>Hey There!
+This is Puran. I am a Dad and a Software Engineer currently living in Walnut Creek, California.</description>
+    </item>
+    
+    <item>
       <title>MacOS Catalina and MongoDB</title>
       <link>https://32skills.com/post/catalina_upgrade/</link>
       <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
@@ -26,15 +36,6 @@
       <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
       
       <guid>https://32skills.com/post/my_first_post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://32skills.com/about/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://32skills.com/about/about/</guid>
       <description></description>
     </item>
     
