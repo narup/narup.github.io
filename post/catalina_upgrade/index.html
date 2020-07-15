@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Puran S | MacOS Catalina and MongoDB </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.73.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Dad and a Software Engineer">
+    
+    <link rel="stylesheet" href="https://32skills.com/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="https://32skills.com/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://32skills.com/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://32skills.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://32skills.com/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://32skills.com/favicons/favicon-16x16.png">
+    <link rel="canonical" href="https://32skills.com/post/catalina_upgrade/">
+    
+    
+    <script type="text/javascript" src="https://32skills.com/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://32skills.com/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="MacOS Catalina and MongoDB"/>
+<meta name="twitter:description" content="Mac OS Catalina and MongoDB setup"/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://32skills.com/img/megopher.png" alt="profile picture">
+        <h3 title=""><a href="/">I&#39;m Puran</a></h3>
+        <div class="description">
+          <p>Dad and a Software Engineer</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://linkedin.com/in/narup" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/narup" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.twitter.com/purans" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:puran@hey.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Puran S 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/book/" title="">Books</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>MacOS Catalina and MongoDB
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Tue, Jul 14, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">2-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup. During server start it started throwing error-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">020-07-14T18:53:04.910-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> MongoDB starting : pid<span style="color:#f92672">=</span><span style="color:#ae81ff">13312</span> port<span style="color:#f92672">=</span><span style="color:#ae81ff">27017</span> dbpath<span style="color:#f92672">=</span>/data/db 64-bit host<span style="color:#f92672">=</span>Purans-MacBook-Pro.local
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> db version v3.4.10
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> OpenSSL version: OpenSSL 1.0.2r  <span style="color:#ae81ff">26</span> Feb <span style="color:#ae81ff">2019</span>
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> allocator: system
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> modules: none
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> build environment:
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span>     distarch: x86_64
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span>     target_arch: x86_64
+2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> options: <span style="color:#f92672">{}</span>
+2020-07-14T18:53:04.913-0700 I STORAGE  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> exception in initAndListen: <span style="color:#ae81ff">29</span> Data directory /data/db not found., terminating
+2020-07-14T18:53:04.913-0700 I NETWORK  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutdown: going to close listening sockets...
+2020-07-14T18:53:04.913-0700 I NETWORK  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutdown: going to flush diaglog...
+2020-07-14T18:53:04.913-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> now exiting
+2020-07-14T18:53:04.913-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutting down with code:100
+</code></pre></div><p>After some head scratching, it turns out Catalina now removes all access to the root folder /.
+MongoDB by default uses /data/db to store all its data. Now with Catalina, since / is no longer
+accessible MongoDB failed to start. It did trigger a bit of a panic to not see my data in /data directory.
+But, while doing some more digging I found MacOS actually moved the data from the root folder to the shared users folder-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">/Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems
+</code></pre></div><p>So, I had to move the db/data from the shared relocated folder to my home folder-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mv /Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems/Security/data/db /Users/&lt;username&gt;
+</code></pre></div><p>and then start the MongoDB server with that path-</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">mongod --dbpath ./data/db
+</code></pre></div><p>This time it started without issues!</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/software/">software</a><a class="category" href="/categories/mac/">mac</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/mongodb/">mongodb</a><a class="tag" href="/tags/macos/">macOS</a><a class="tag" href="/tags/database/">database</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://32skills.com/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://32skills.com/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://32skills.com/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

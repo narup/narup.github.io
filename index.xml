@@ -6,10 +6,19 @@
     <description>Recent content on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Jul 2020 01:18:07 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate>
     
 	<atom:link href="https://32skills.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MacOS Catalina and MongoDB</title>
+      <link>https://32skills.com/post/catalina_upgrade/</link>
+      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      
+      <guid>https://32skills.com/post/catalina_upgrade/</guid>
+      <description>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup.</description>
+    </item>
     
     <item>
       <title>the first one</title>

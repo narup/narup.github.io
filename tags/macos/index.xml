@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tech and stuffs</title>
-    <link>https://32skills.com/post/</link>
-    <description>Recent content in Posts on Tech and stuffs</description>
+    <title>macOS on Tech and stuffs</title>
+    <link>https://32skills.com/tags/macos/</link>
+    <description>Recent content in macOS on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate>
     
-	<atom:link href="https://32skills.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://32skills.com/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://32skills.com/post/catalina_upgrade/</guid>
       <description>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup.</description>
-    </item>
-    
-    <item>
-      <title>the first one</title>
-      <link>https://32skills.com/post/my_first_post/</link>
-      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
-      
-      <guid>https://32skills.com/post/my_first_post/</guid>
-      <description></description>
     </item>
     
   </channel>

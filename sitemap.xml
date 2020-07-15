@@ -3,27 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://32skills.com/categories/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/tags/database/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/categories/mac/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/tags/macos/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/post/catalina_upgrade/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/tags/mongodb/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/post/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/categories/software/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/tags/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://32skills.com/</loc>
+    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://32skills.com/tags/blog/</loc>
     <lastmod>2020-07-12T01:18:07-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://32skills.com/tags/first/</loc>
-    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://32skills.com/post/</loc>
-    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://32skills.com/tags/</loc>
-    <lastmod>2020-07-12T01:18:07-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://32skills.com/</loc>
     <lastmod>2020-07-12T01:18:07-07:00</lastmod>
   </url>
   
@@ -46,10 +81,6 @@
   
   <url>
     <loc>https://32skills.com/book/</loc>
-  </url>
-  
-  <url>
-    <loc>https://32skills.com/categories/</loc>
   </url>
   
 </urlset>
