@@ -1,0 +1,12 @@
+:root{
+    --bg-color:#fff;
+    --secondary-bg-color:#eeeeee;
+    --heading-color:#50A;
+    --body-color:#555555;
+    --post-color:#444444;
+    --border-color: #efefef;
+    --pre-bg-color: #f9f9fd;
+    --nav-text-color:#228;
+    --tag-color: #424242;
+    scroll-padding-top: 100px;
+}

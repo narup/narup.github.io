@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on always building!</title>
+    <title>Posts on Tech and stuffs</title>
     <link>narup.github.io/post/</link>
-    <description>Recent content in Posts on always building!</description>
+    <description>Recent content in Posts on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Sun, 12 Jul 2020 01:18:07 -0700</lastBuildDate>
     
 	<atom:link href="narup.github.io/post/index.xml" rel="self" type="application/rss+xml" />
