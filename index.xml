@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech and stuffs</title>
-    <link>narup.github.io/</link>
+    <link>32skills.com/</link>
     <description>Recent content on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Jul 2020 01:18:07 -0700</lastBuildDate>
     
-	<atom:link href="narup.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="32skills.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>the first one</title>
-      <link>narup.github.io/post/my_first_post/</link>
+      <link>32skills.com/post/my_first_post/</link>
       <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
       
-      <guid>narup.github.io/post/my_first_post/</guid>
+      <guid>32skills.com/post/my_first_post/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>narup.github.io/about/about/</link>
+      <link>32skills.com/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>narup.github.io/about/about/</guid>
+      <guid>32skills.com/about/about/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>narup.github.io/book/books/</link>
+      <link>32skills.com/book/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>narup.github.io/book/books/</guid>
+      <guid>32skills.com/book/books/</guid>
       <description></description>
     </item>
     

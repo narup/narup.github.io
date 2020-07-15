@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abouts on Tech and stuffs</title>
-    <link>narup.github.io/about/</link>
+    <link>32skills.com/about/</link>
     <description>Recent content in Abouts on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="narup.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="32skills.com/about/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>narup.github.io/about/about/</link>
+      <link>32skills.com/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>narup.github.io/about/about/</guid>
+      <guid>32skills.com/about/about/</guid>
       <description></description>
     </item>
     
