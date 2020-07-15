@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on Tech and stuffs</title>
-    <link>https://32skills.com/book/</link>
+    <link>https://narup.github.io/book/</link>
     <description>Recent content in Books on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://32skills.com/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://narup.github.io/book/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://32skills.com/book/books/</link>
+      <link>https://narup.github.io/book/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://32skills.com/book/books/</guid>
+      <guid>https://narup.github.io/book/books/</guid>
       <description></description>
     </item>
     
