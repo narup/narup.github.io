@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tech and stuffs</title>
-    <link>https://32skills.com/categories/</link>
+    <link>https://puran.me/categories/</link>
     <description>Recent content in Categories on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate>
     
-	<atom:link href="https://32skills.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://puran.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>mac</title>
-      <link>https://32skills.com/categories/mac/</link>
+      <link>https://puran.me/categories/mac/</link>
       <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
       
-      <guid>https://32skills.com/categories/mac/</guid>
+      <guid>https://puran.me/categories/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
-      <link>https://32skills.com/categories/software/</link>
+      <link>https://puran.me/categories/software/</link>
       <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
       
-      <guid>https://32skills.com/categories/software/</guid>
+      <guid>https://puran.me/categories/software/</guid>
       <description></description>
     </item>
     
