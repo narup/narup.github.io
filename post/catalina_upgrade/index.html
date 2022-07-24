@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>MacOS Catalina and MongoDB</title>
+	<meta name="description" content="Puran&#39;s personal website">
+	<meta name="author" content="Puran Singh">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	=====================<br>
+	== <a href="https://puran.me">Tech and stuffs</a> ==<br>
+	=====================
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/"><b>Home</b></a>.
+			
+			<a href="/post/"><b>Posts</b></a>.
+			
+			<a href="/book/"><b>Books</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>MacOS Catalina and MongoDB</h1>
+			<b><time>2020-07-14 18:46:19</time></b>
+		       
+		           <a href="/tags/mongodb">mongodb</a>
+        	       
+		           <a href="/tags/macos">macOS</a>
+        	       
+		           <a href="/tags/database">database</a>
+        	       
+
+			<div>
+				<p>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup. During server start it started throwing error-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>020-07-14T18:53:04.910-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> MongoDB starting : pid<span style="color:#f92672">=</span><span style="color:#ae81ff">13312</span> port<span style="color:#f92672">=</span><span style="color:#ae81ff">27017</span> dbpath<span style="color:#f92672">=</span>/data/db 64-bit host<span style="color:#f92672">=</span>Purans-MacBook-Pro.local
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> db version v3.4.10
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> git version: 078f28920cb24de0dd479b5ea6c66c644f6326e9
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> OpenSSL version: OpenSSL 1.0.2r  <span style="color:#ae81ff">26</span> Feb <span style="color:#ae81ff">2019</span>
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> allocator: system
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> modules: none
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> build environment:
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span>     distarch: x86_64
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span>     target_arch: x86_64
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.911-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> options: <span style="color:#f92672">{}</span>
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.913-0700 I STORAGE  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> exception in initAndListen: <span style="color:#ae81ff">29</span> Data directory /data/db not found., terminating
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.913-0700 I NETWORK  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutdown: going to close listening sockets...
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.913-0700 I NETWORK  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutdown: going to flush diaglog...
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.913-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> now exiting
+</span></span><span style="display:flex;"><span>2020-07-14T18:53:04.913-0700 I CONTROL  <span style="color:#f92672">[</span>initandlisten<span style="color:#f92672">]</span> shutting down with code:100
+</span></span></code></pre></div><p>After some head scratching, it turns out Catalina now removes all access to the root folder /.
+MongoDB by default uses /data/db to store all its data. Now with Catalina, since / is no longer
+accessible MongoDB failed to start. It did trigger a bit of a panic to not see my data in /data directory.
+But, after doing some more digging I found MacOS actually moved the data from the root folder to the shared users folder-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>/Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems
+</span></span></code></pre></div><p>So, I had to move the db/data from the shared relocated folder to my home folder-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mv /Users/Shared/Relocated<span style="color:#ae81ff">\I</span>tems/Security/data/db /Users/&lt;username&gt;
+</span></span></code></pre></div><p>and then start the MongoDB server with that path-</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mongod --dbpath ./data/db
+</span></span></code></pre></div><p>This time it started without issues!</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/post/catalina_upgrade/">MacOS Catalina and MongoDB</a></li>
+				
+				<li><a href="/post/my_first_post/">the first one</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2022 <a href="https://puran.me"><b>Tech and stuffs</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

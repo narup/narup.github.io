@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tech and stuffs</title>
+    <link>https://puran.me/tags/</link>
+    <description>Recent content in Tags on Tech and stuffs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>database</title>
+      <link>https://puran.me/tags/database/</link>
+      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://puran.me/tags/macos/</link>
+      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongodb</title>
+      <link>https://puran.me/tags/mongodb/</link>
+      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/tags/mongodb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://puran.me/tags/blog/</link>
+      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
+      
+      <guid>https://puran.me/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>first</title>
+      <link>https://puran.me/tags/first/</link>
+      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
+      
+      <guid>https://puran.me/tags/first/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
