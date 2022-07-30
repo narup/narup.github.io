@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Tech and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 01:18:07 -0700</lastBuildDate><atom:link href="https://puran.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erlang &amp; Elixir References</title>
+      <link>https://puran.me/post/erlang_and_elixir/</link>
+      <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
+      
+      <guid>https://puran.me/post/erlang_and_elixir/</guid>
+      <description>I work with mostly golang at work but love learning new languages and tinker with them on the side.</description>
+    </item>
+    
     <item>
       <title>MacOS Catalina and MongoDB</title>
       <link>https://puran.me/post/catalina_upgrade/</link>
