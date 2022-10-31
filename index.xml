@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tech and stuffs</title>
+    <title>Unknown corner, tech, and stuffs</title>
     <link>https://puran.me/</link>
-    <description>Recent content on Tech and stuffs</description>
+    <description>Recent content on Unknown corner, tech, and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 12 Jul 2022 01:18:07 -0700</lastBuildDate><atom:link href="https://puran.me/index.xml" rel="self" type="application/rss+xml" />
@@ -23,7 +23,7 @@
       
       <guid>https://puran.me/about/</guid>
       <description>Hey There!
-This is Puran. I am a Dad and a Software Engineer currently living in Walnut Creek, California.</description>
+Intro: This is Puran. I am a Dad and a Software Engineer currently living in Walnut Creek, California.</description>
     </item>
     
     <item>
