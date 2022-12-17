@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kernel on Unknown corner, tech, and stuffs</title>
+    <link>https://puran.me/tags/kernel/</link>
+    <description>Recent content in kernel on Unknown corner, tech, and stuffs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/tags/kernel/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Systems Programming and Rust</title>
+      <link>https://puran.me/post/system_programming/</link>
+      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/post/system_programming/</guid>
+      <description>These days my interests in system programming is going really strong.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,22 +6,40 @@
     <description>Recent content in Categories on Unknown corner, tech, and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2020 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>mac</title>
-      <link>https://puran.me/categories/mac/</link>
-      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      <title>os</title>
+      <link>https://puran.me/categories/os/</link>
+      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
       
-      <guid>https://puran.me/categories/mac/</guid>
+      <guid>https://puran.me/categories/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://puran.me/categories/programming/</link>
+      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/categories/programming/</guid>
       <description></description>
     </item>
     
     <item>
       <title>software</title>
       <link>https://puran.me/categories/software/</link>
-      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
       
       <guid>https://puran.me/categories/software/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mac</title>
+      <link>https://puran.me/categories/mac/</link>
+      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
+      
+      <guid>https://puran.me/categories/mac/</guid>
       <description></description>
     </item>
     

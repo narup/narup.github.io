@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://puran.me/categories/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/compiler/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/kernel/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/language/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/categories/os/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/post/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/categories/programming/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/rust/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/categories/software/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/system/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/post/system_programming/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/tags/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
+    <loc>https://puran.me/</loc>
+    <lastmod>2022-12-14T18:46:19-07:00</lastmod>
+  </url><url>
     <loc>https://puran.me/tags/elixir/</loc>
     <lastmod>2022-07-12T01:18:07-07:00</lastmod>
   </url><url>
@@ -11,23 +50,11 @@
     <loc>https://puran.me/post/erlang_and_elixir/</loc>
     <lastmod>2022-07-12T01:18:07-07:00</lastmod>
   </url><url>
-    <loc>https://puran.me/post/</loc>
-    <lastmod>2022-07-12T01:18:07-07:00</lastmod>
-  </url><url>
-    <loc>https://puran.me/tags/</loc>
-    <lastmod>2022-07-12T01:18:07-07:00</lastmod>
-  </url><url>
     <loc>https://puran.me/tags/tutorials/</loc>
-    <lastmod>2022-07-12T01:18:07-07:00</lastmod>
-  </url><url>
-    <loc>https://puran.me/</loc>
     <lastmod>2022-07-12T01:18:07-07:00</lastmod>
   </url><url>
     <loc>https://puran.me/about/</loc>
     <lastmod>2020-07-14T19:31:04-07:00</lastmod>
-  </url><url>
-    <loc>https://puran.me/categories/</loc>
-    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
   </url><url>
     <loc>https://puran.me/tags/database/</loc>
     <lastmod>2020-07-14T18:46:19-07:00</lastmod>
@@ -42,9 +69,6 @@
     <lastmod>2020-07-14T18:46:19-07:00</lastmod>
   </url><url>
     <loc>https://puran.me/tags/mongodb/</loc>
-    <lastmod>2020-07-14T18:46:19-07:00</lastmod>
-  </url><url>
-    <loc>https://puran.me/categories/software/</loc>
     <lastmod>2020-07-14T18:46:19-07:00</lastmod>
   </url><url>
     <loc>https://puran.me/tags/blog/</loc>
