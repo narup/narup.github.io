@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<style type=text/css>body{font-family:monospace;}</style>
-	<title>Systems Programming and Rust</title>
+	<title>Rusty - scripting language written in Rust</title>
 	<meta name="description" content="Puran&#39;s personal website">
 	<meta name="author" content="Puran Singh">
 	<link rel="stylesheet" href="/css/style.css">
@@ -39,7 +39,7 @@
 	
 	<main>
 		<article>
-			<h1>Systems Programming and Rust</h1>
+			<h1>Rusty - scripting language written in Rust</h1>
 			<b><time>2022-12-14 18:46:19</time></b>
 		       
 		           <a href="/tags/rust">rust</a>
@@ -54,13 +54,53 @@
         	       
 
 			<div>
-				<p>These days my interests in system programming is going really strong. Reading about programming language design, lexers plus parsers, virtual machines is becoming more of a hobby for me. So, collecting some resources here for my own reference</p>
+				<p>Journal and references for Rusty, a toy programming language I am trying to implement in Rust to explore language design, interpreters, and compilers</p>
+<p>===========================================</p>
 <h1 id="resources">Resources</h1>
 <ul>
 <li><a href="https://539kernel.com/book/index.html">The Kernel Book</a> A Journey in Creating an Operating System Kernel</li>
 <li><a href="https://craftinginterpreters.com/">Crafting Interpreters</a>  Ever wanted to make your own programming language or wondered how they are designed and built?</li>
 <li><a href="https://asahilinux.org/2022/11/tales-of-the-m1-gpu/">Tales of the M1 GPU</a></li>
 </ul>
+<h1 id="how-i-wrote-my-own-proper-programming-languagehttpsmukulrathicomcreate-your-own-programming-languageintro-to-compiler"><a href="https://mukulrathi.com/create-your-own-programming-language/intro-to-compiler/">How I wrote my own &ldquo;proper&rdquo; programming language</a></h1>
+<h1 id="rich-programmer-foodhttpssteve-yeggeblogspotcom200706rich-programmer-foodhtml"><a href="https://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html">Rich programmer food</a></h1>
+<p>============================================</p>
+<h1 id="rusty-log---05-01-2023">Rusty Log - 05-01-2023</h1>
+<hr>
+<h3 id="grammer-for-rusty-work-in-progress">Grammer for rusty (work in progress)</h3>
+<p>Reference: <a href="https://craftinginterpreters.com/representing-code.html#top">https://craftinginterpreters.com/representing-code.html#top</a></p>
+<p>BNF notation simplified</p>
+<pre tabindex="0"><code>pipe | : options one or the other. e.g. bread -&gt; &#34;toast&#34; | &#34;biscuits&#34; | &#34;muffin&#34;
+parenthesis ( ) : grouping. e.g. protein → ( &#34;scrambled&#34; | &#34;poached&#34; | &#34;fried&#34; ) &#34;eggs&#34; 
+recursion * : repeat zero or more times. e.g. crispiness → &#34;really&#34; &#34;really&#34;*
+postfix + : appear at least once. e.g. crispiness → &#34;really&#34;+
+postfix ? : appear zero or once 
+</code></pre><pre tabindex="0"><code>expression     → equality ;
+equality       → comparison ( ( &#34;!=&#34; | &#34;==&#34; ) comparison )* ;
+comparison     → term ( ( &#34;&gt;&#34; | &#34;&gt;=&#34; | &#34;&lt;&#34; | &#34;&lt;=&#34; ) term )* ;
+term           → factor ( ( &#34;-&#34; | &#34;+&#34; ) factor )* ;
+factor         → unary ( ( &#34;/&#34; | &#34;*&#34; ) unary )* ;
+unary          → ( &#34;!&#34; | &#34;-&#34; ) unary
+               | primary ;
+primary        → NUMBER | STRING | &#34;true&#34; | &#34;false&#34; | &#34;nil&#34;
+               | &#34;(&#34; expression &#34;)&#34; ;
+</code></pre><h3 id="precedence-and-associativity">Precedence and Associativity</h3>
+<pre tabindex="0"><code>
+Name	        Operators	    Associates       Precedence       Grammer
+Equality	       == !=	      Left              Lower           Top
+Comparison	    &gt; &gt;= &lt; &lt;=	      Left
+Term	           - +	          Left                
+Factor	           / *	          Left               
+Unary	           ! -	          Right            Highest         Bottom  
+</code></pre><h3 id="recursive-descent-parser">Recursive Descent Parser</h3>
+<p>A recursive descent parser is a literal translation of the grammar’s rules straight into imperative code. Each rule becomes a function. The body of the rule translates to code roughly like:</p>
+<pre tabindex="0"><code>Grammar notation	        Code representation
+Terminal	                Code to match and consume a token
+Nonterminal	                Call to that rule’s function
+|	                        if or switch statement
+* or +	                    while or for loop
+?	                        if statement
+</code></pre><p>=================================================================</p>
 
 			</div>
 		</article>
@@ -73,7 +113,7 @@
 		<div>
 			<ul>
 				
-				<li><a href="/post/system_programming/">Systems Programming and Rust</a></li>
+				<li><a href="/post/system_programming/">Rusty - scripting language written in Rust</a></li>
 				
 				<li><a href="/post/erlang_and_elixir/">Erlang &amp; Elixir References</a></li>
 				
@@ -88,7 +128,7 @@
 
 
 	<footer>
-	<p>&copy; 2022 <a href="https://puran.me"><b>Unknown corner, tech, and stuffs</b></a>.
+	<p>&copy; 2023 <a href="https://puran.me"><b>Unknown corner, tech, and stuffs</b></a>.
 	</p>
 </footer>
 
