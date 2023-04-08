@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>os on Unknown corner, tech, and stuffs</title>
-    <link>https://puran.me/categories/os/</link>
-    <description>Recent content in os on Unknown corner, tech, and stuffs</description>
+    <title>zig on Unknown corner, tech, and stuffs</title>
+    <link>https://puran.me/tags/zig/</link>
+    <description>Recent content in zig on Unknown corner, tech, and stuffs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/categories/os/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/tags/zig/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>System Programming - Compilers/VMs/Language Designs</title>
       <link>https://puran.me/post/system_programming/</link>
