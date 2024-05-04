@@ -4,44 +4,44 @@
     <title>Posts on Unknown corner, tech, and stuffs</title>
     <link>https://puran.me/post/</link>
     <description>Recent content in Posts on Unknown corner, tech, and stuffs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 01:18:07 -0700</lastBuildDate>
+    <atom:link href="https://puran.me/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory layout of Rust&#39;s data types</title>
+      <link>https://puran.me/post/rust_data_types_memory_layout/</link>
+      <pubDate>Sat, 04 May 2024 01:18:07 -0700</pubDate>
+      <guid>https://puran.me/post/rust_data_types_memory_layout/</guid>
+      <description>Summary from a very good YouTube video- Visualizing memory layout of Rust&amp;rsquo;s data types Author - Sreekanth</description>
+    </item>
     <item>
       <title>System Programming - Compilers/VMs/Language Designs</title>
       <link>https://puran.me/post/system_programming/</link>
       <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
       <guid>https://puran.me/post/system_programming/</guid>
       <description>Journal and references for exploring language design, interpreters, and compilers</description>
     </item>
-    
     <item>
       <title>Erlang &amp; Elixir References</title>
       <link>https://puran.me/post/erlang_and_elixir/</link>
       <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
       <guid>https://puran.me/post/erlang_and_elixir/</guid>
       <description>I work with mostly golang at work but love learning new languages and tinker with them on the side.</description>
     </item>
-    
     <item>
       <title>MacOS Catalina and MongoDB</title>
       <link>https://puran.me/post/catalina_upgrade/</link>
       <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
-      
       <guid>https://puran.me/post/catalina_upgrade/</guid>
       <description>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup.</description>
     </item>
-    
     <item>
       <title>the first one</title>
       <link>https://puran.me/post/my_first_post/</link>
       <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
-      
       <guid>https://puran.me/post/my_first_post/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

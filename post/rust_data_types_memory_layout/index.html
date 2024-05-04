@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Memory layout of Rust&#39;s data types</title>
+	<meta name="description" content="Puran&#39;s personal website">
+	<meta name="author" content="Puran Singh">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	======================================<br>
+	== <a href="https://puran.me/">Unknown corner, tech, and stuffs</a> ==<br>
+	======================================
+	<div style="float: right;"></div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/"><b>Home</b></a>.
+			
+			<a href="/post/"><b>Posts</b></a>.
+			
+			<a href="/book/"><b>Books</b></a>.
+			
+			<a href="/about/"><b>About</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Memory layout of Rust&#39;s data types</h1>
+			<b><time>2024-05-04 01:18:07</time></b>
+		       
+		           <a href="/tags/rust">rust</a>
+        	       
+
+			<div>
+				<p>Summary from a very good YouTube video- <a href="https://www.youtube.com/watch?v=rDoqT-a6UFg&amp;t=1114s">Visualizing memory layout of Rust&rsquo;s data types</a>
+Author - Sreekanth</p>
+<p>This is mostly for my reference</p>
+<h3 id="summary">Summary</h3>
+<p>Understanding the memory layout of data types in Rust is important for better program design and dealing with compiler errors. The video explores the memory layout of common data types and how they are stored in stack and heap memory.</p>
+<h3 id="highlights">Highlights</h3>
+<ul>
+<li>When writing programs in Rust, understanding the memory layout of data types is crucial for better program design and handling compiler errors.</li>
+<li>When executing a binary, the operating system provides a continuous range of memory addresses called the virtual address space for the program to use.</li>
+<li>The stack memory is used to store data of the currently executing function and is fast and efficient, but has limitations on variable size and lifetime.</li>
+<li>The heap memory is used for dynamic memory allocation and allows for data sharing, but comes with performance overhead and requires explicit memory management.</li>
+<li>Rust’s data types have different memory layouts, including stack-only types, heap-allocated types, and dynamically sized types like slices and trait objects.</li>
+<li>Ownership models in Rust ensure memory safety by enforcing rules for moving and borrowing data, and smart pointers like Rc and Arc enable shared ownership of data across threads.</li>
+<li>Closures in Rust are represented using structs and implement specific trait types depending on their behavior, allowing for different levels of mutability and ownership.</li>
+</ul>
+<h3 id="key-insights">Key Insights</h3>
+<ul>
+<li>Understanding the memory layout of data types in Rust is crucial for writing efficient programs and avoiding common memory-related bugs. It helps in making informed decisions about data placement and minimizing wasted memory.</li>
+<li>Stack memory is fast and efficient for storing function-specific data, but has limitations on variable size and lifetime. It is deallocated automatically when a function returns, making it suitable for short-lived data.</li>
+<li>Heap memory allows for dynamic memory allocation and sharing of data across functions and threads. It requires explicit memory management and comes with performance overhead due to system calls and memory fragmentation.</li>
+<li>Rust’s ownership models ensure memory safety by enforcing rules for moving and borrowing data. Ownership transfers responsibility for memory deallocation, preventing use-after-free and dangling pointer bugs.</li>
+<li>Smart pointers like Rc and Arc enable shared ownership of data across threads by using reference counting to track the number of references to a value. Atomic reference counting ensures thread-safe operations on shared data.</li>
+<li>Dynamically sized types like slices and trait objects require additional memory for storing their size information. They are represented as fat pointers, consisting of a data pointer and a pointer to a table representing the type’s behavior.</li>
+<li>Closures in Rust are represented using structs and implement specific trait types depending on their behavior. They allow for capturing and manipulating variables from enclosing scopes, providing flexibility in code organization and reuse.</li>
+</ul>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/post/rust_data_types_memory_layout/">Memory layout of Rust&#39;s data types</a></li>
+				
+				<li><a href="/post/system_programming/">System Programming - Compilers/VMs/Language Designs</a></li>
+				
+				<li><a href="/post/erlang_and_elixir/">Erlang &amp; Elixir References</a></li>
+				
+				<li><a href="/post/catalina_upgrade/">MacOS Catalina and MongoDB</a></li>
+				
+				<li><a href="/post/my_first_post/">the first one</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2024 <a href="https://puran.me/"><b>Unknown corner, tech, and stuffs</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

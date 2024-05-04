@@ -4,134 +4,107 @@
     <title>Tags on Unknown corner, tech, and stuffs</title>
     <link>https://puran.me/tags/</link>
     <description>Recent content in Tags on Unknown corner, tech, and stuffs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 01:18:07 -0700</lastBuildDate>
+    <atom:link href="https://puran.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>compiler</title>
-      <link>https://puran.me/tags/compiler/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
-      <guid>https://puran.me/tags/compiler/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kernel</title>
-      <link>https://puran.me/tags/kernel/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
-      <guid>https://puran.me/tags/kernel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>language</title>
-      <link>https://puran.me/tags/language/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
-      <guid>https://puran.me/tags/language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rust</title>
+      <title>Rust</title>
       <link>https://puran.me/tags/rust/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/rust/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>system</title>
+      <title>Compiler</title>
+      <link>https://puran.me/tags/compiler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puran.me/tags/compiler/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>https://puran.me/tags/kernel/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puran.me/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Language</title>
+      <link>https://puran.me/tags/language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://puran.me/tags/language/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>System</title>
       <link>https://puran.me/tags/system/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/system/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>zig</title>
+      <title>Zig</title>
       <link>https://puran.me/tags/zig/</link>
-      <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/zig/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>elixir</title>
+      <title>Elixir</title>
       <link>https://puran.me/tags/elixir/</link>
-      <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/elixir/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>erlang</title>
+      <title>Erlang</title>
       <link>https://puran.me/tags/erlang/</link>
-      <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/erlang/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>tutorials</title>
+      <title>Tutorials</title>
       <link>https://puran.me/tags/tutorials/</link>
-      <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/tutorials/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>database</title>
+      <title>Database</title>
       <link>https://puran.me/tags/database/</link>
-      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/database/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>macOS</title>
+      <title>MacOS</title>
       <link>https://puran.me/tags/macos/</link>
-      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/macos/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>mongodb</title>
+      <title>Mongodb</title>
       <link>https://puran.me/tags/mongodb/</link>
-      <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/mongodb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://puran.me/tags/blog/</link>
-      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/blog/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>first</title>
+      <title>First</title>
       <link>https://puran.me/tags/first/</link>
-      <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
-      
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://puran.me/tags/first/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

@@ -4,63 +4,51 @@
     <title>Unknown corner, tech, and stuffs</title>
     <link>https://puran.me/</link>
     <description>Recent content on Unknown corner, tech, and stuffs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Dec 2022 18:46:19 -0700</lastBuildDate><atom:link href="https://puran.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 May 2024 01:18:07 -0700</lastBuildDate>
+    <atom:link href="https://puran.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memory layout of Rust&#39;s data types</title>
+      <link>https://puran.me/post/rust_data_types_memory_layout/</link>
+      <pubDate>Sat, 04 May 2024 01:18:07 -0700</pubDate>
+      <guid>https://puran.me/post/rust_data_types_memory_layout/</guid>
+      <description>Summary from a very good YouTube video- Visualizing memory layout of Rust&amp;rsquo;s data types Author - Sreekanth</description>
+    </item>
     <item>
       <title>System Programming - Compilers/VMs/Language Designs</title>
       <link>https://puran.me/post/system_programming/</link>
       <pubDate>Wed, 14 Dec 2022 18:46:19 -0700</pubDate>
-      
       <guid>https://puran.me/post/system_programming/</guid>
       <description>Journal and references for exploring language design, interpreters, and compilers</description>
     </item>
-    
     <item>
       <title>Erlang &amp; Elixir References</title>
       <link>https://puran.me/post/erlang_and_elixir/</link>
       <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
       <guid>https://puran.me/post/erlang_and_elixir/</guid>
       <description>I work with mostly golang at work but love learning new languages and tinker with them on the side.</description>
     </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://puran.me/about/</link>
-      <pubDate>Tue, 14 Jul 2020 19:31:04 -0700</pubDate>
-      
-      <guid>https://puran.me/about/</guid>
-      <description>Hey There!
-Intro: This is Puran. I am a Dad and a Software Engineer currently living in Walnut Creek, California.</description>
-    </item>
-    
     <item>
       <title>MacOS Catalina and MongoDB</title>
       <link>https://puran.me/post/catalina_upgrade/</link>
       <pubDate>Tue, 14 Jul 2020 18:46:19 -0700</pubDate>
-      
       <guid>https://puran.me/post/catalina_upgrade/</guid>
       <description>I recently upgraded my macOS to Catalina but realized it broke my local MongoDB server setup.</description>
     </item>
-    
     <item>
       <title>the first one</title>
       <link>https://puran.me/post/my_first_post/</link>
       <pubDate>Sun, 12 Jul 2020 01:18:07 -0700</pubDate>
-      
       <guid>https://puran.me/post/my_first_post/</guid>
       <description></description>
     </item>
-    
     <item>
       <title></title>
       <link>https://puran.me/book/books/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://puran.me/book/books/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

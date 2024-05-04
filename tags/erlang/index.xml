@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>erlang on Unknown corner, tech, and stuffs</title>
+    <title>Erlang on Unknown corner, tech, and stuffs</title>
     <link>https://puran.me/tags/erlang/</link>
-    <description>Recent content in erlang on Unknown corner, tech, and stuffs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Erlang on Unknown corner, tech, and stuffs</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Jul 2022 01:18:07 -0700</lastBuildDate><atom:link href="https://puran.me/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Jul 2022 01:18:07 -0700</lastBuildDate>
+    <atom:link href="https://puran.me/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Erlang &amp; Elixir References</title>
       <link>https://puran.me/post/erlang_and_elixir/</link>
       <pubDate>Tue, 12 Jul 2022 01:18:07 -0700</pubDate>
-      
       <guid>https://puran.me/post/erlang_and_elixir/</guid>
       <description>I work with mostly golang at work but love learning new languages and tinker with them on the side.</description>
     </item>
-    
   </channel>
 </rss>
