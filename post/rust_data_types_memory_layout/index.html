@@ -60,6 +60,19 @@ Author - Sreekanth</p>
 <li>Rust’s data types have different memory layouts, including stack-only types, heap-allocated types, and dynamically sized types like slices and trait objects.</li>
 <li>Ownership models in Rust ensure memory safety by enforcing rules for moving and borrowing data, and smart pointers like Rc and Arc enable shared ownership of data across threads.</li>
 <li>Closures in Rust are represented using structs and implement specific trait types depending on their behavior, allowing for different levels of mutability and ownership.</li>
+<li>The executable format specifies different segments of memory, like text segment for instructions, data segment for initialized variables, heap segment for dynamic memory allocation etc.</li>
+<li>The stack and heap grow in opposite directions. The stack grows downwards and is used to store function data, while the heap grows upwards and is used for dynamic memory allocation.</li>
+<li>The memory address range is determined by the CPU&rsquo;s word size, which is 64 bits on most modern CPUs. This means a 64-bit CPU can address up to 2^48 bytes of memory.</li>
+<li>The video goes over the memory layout of common data types in Rust, including integers, tuples, slices, vectors, strings, structs, enums, smart pointers, trait objects, and function pointers.
+<ul>
+<li>Structs have memory allocated for each of their fields.</li>
+<li>Enums have memory allocated to store the variant tag and the data of the chosen variant.</li>
+<li>Smart pointers like Box and Rc manage heap-allocated memory.</li>
+<li>Trait objects are fat pointers that consist of two pointers: one to the value and one to the table representing the value&rsquo;s type.</li>
+<li>Function pointers store the address of the actual machine code for the function.</li>
+<li>Closures are represented using structs that store the captured variables and implement the appropriate trait.</li>
+</ul>
+</li>
 </ul>
 <h3 id="key-insights">Key Insights</h3>
 <ul>
